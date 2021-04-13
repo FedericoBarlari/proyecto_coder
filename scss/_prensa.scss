@@ -1,0 +1,20 @@
+/*prensa*/
+
+    .articulos__titulo--centrado {
+        text-align: center;
+        margin: 20px;
+    }
+
+    iframe {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;  /*logré centrar el iframe*/
+        margin-right: auto;
+    }
+
+    .prensa__titulo {
+        text-align: center;
+        margin: 15px;
+        color: $color-titulos;
+    }

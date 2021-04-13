@@ -1,0 +1,17 @@
+/*SOBRE MÍ*/ 
+
+$marginText: 15px;
+
+.contexto__texto {
+    margin: $marginText;
+}
+
+#presentacion {
+    h1 {
+        margin: $marginText;
+    }
+    
+    p {
+        margin: $marginText;
+    }
+}

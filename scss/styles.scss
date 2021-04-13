@@ -1,0 +1,175 @@
+$fuente: normal 15px 'Michroma', sans-serif;
+$color-fondo: linear-gradient(to right, #45B649, #DCE35B);
+$color-titulos: #3734eb;
+$borde-textos: 2px solid grey;
+$espaciado-letras: 3px;
+
+@import "prensa";
+@import "footer";
+@import "trabajos";
+@import "sobremi";
+@import "contacto";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: $fuente;
+    background: $color-fondo;
+}
+
+
+    .inicio__titulo {   /*BEM*/
+        color: $color-titulos;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    #menu {
+        background: #283c86;  
+        background: -webkit-linear-gradient(to right, #45a247, #283c86); 
+        background: linear-gradient(to right, #45a247, #283c86);
+        width: 100%; 
+        margin-bottom: 30px;
+        padding: 20px;
+        border : none;
+    }
+
+
+    .inicio__introduccion {
+
+        line-height: 22px;
+        letter-spacing: $espaciado-letras;
+        margin: 15px;
+        background-color: #d9d9d9;
+        border-radius: $borde-textos;
+    }
+    
+    
+    .mundo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .nombre {
+    
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    
+    
+    h3 {
+    
+        display: inline-block;
+        width: 33%;
+        text-align: center;
+    
+        }
+    
+    
+    .checkVerde:before {
+    
+        content : '✓';
+        color : green;
+    
+    }	
+
+
+    $fuente-alternativa: 13px;  /*CONDICIONAL IF*/
+
+    p {
+        @if ($fuente-alternativa==13px) {
+            font-size: 13px;
+        } @else if ($fuente-alternativa==15px) {
+            font-size: 15px;
+        }
+    }
+
+
+    $colores: rgb(83, 158, 158), green, red; /*LISTA*/
+
+    $turquesa: nth($colores, 1);
+
+    p {
+        color: $turquesa;
+    }
+
+    
+    $encabezados: (   /*EACH Y MAPA*/
+        h1: 2.5em,
+        h2: 1.5em,
+        h3: 1.2em,
+    );
+
+    @each $encabezado, $size in $encabezados {
+        #{$encabezado} {
+            font-size: $size;
+        }
+        
+    }
+
+
+
+
+    #sobreMi {     /*pude achicar el carrusel pero no logro que el texto se ponga al lado*/
+        width: 100%;  
+        display: flex;
+        position: sticky;
+        margin: 20px;
+    }
+
+    #carouselExampleFade {
+        width: 50%;
+        margin-left: 15px;
+    }
+
+    .contexto {  /*BEM*/
+        width: 50%;
+        margin-right: 15px;
+    }
+
+        .contexto__texto {
+            text-align: left;
+            margin-right: 15px;
+        
+        }
+
+            .contexto__texto__titulo--estilo {
+                color: $color-titulos;
+                text-align: center;
+                text-decoration: none;
+            }
+
+            .contexto__texto__parrafo--bordes {
+                background-color: #d9d9d9;
+                border-radius: $borde-textos;
+            }
+
+     #contacto {
+         margin: 15px;
+           
+
+        .formulario {  /*BEM*/
+            display: flex;
+	        justify-content: center;
+	        align-items: center;
+	        flex-direction: column;
+            
+        }
+
+            .formulario__input--margen {
+                margin: 20px;
+            }
+    } 
+    
+    
+   

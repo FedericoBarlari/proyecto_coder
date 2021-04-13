@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/*prensa*/
+.articulos__titulo--centrado {
+  text-align: center;
+  margin: 20px;
+}
+
+iframe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  /*logré centrar el iframe*/
+  margin-right: auto;
+}
+
+.prensa__titulo {
+  text-align: center;
+  margin: 15px;
+  color: #3734eb;
+}
+
+/*footer*/
+.facebook {
+  color: blue;
+}
+
+.instagram {
+  color: red;
+}
+
+.linkedin {
+  color: blue;
+}
+
+.twitter {
+  color: blue;
+}
+
+footer {
+  border-top: 2px dashed #004d00;
+  margin: 5px;
+}
+
+footer .redesSociales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse nowrap;
+          flex-flow: row-reverse nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 15px;
+  padding: 10px;
+}
+
+footer .redesSociales__icono {
+  /*BEM*/
+  color: black;
+  font-size: 32px;
+  -webkit-transition: font-size 1s;
+  transition: font-size 1s;
+}
+
+footer .redesSociales__icono:hover {
+  font-size: 40px;
+}
+
+footer .derechos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 15px;
+  letter-spacing: 3px;
+}
+
+/*trabajos*/
+.imagenEnChaco {
+  text-align: center;
+}
+
+.chaco {
+  margin: 15px;
+}
+
+.chaco__titulo {
+  color: #3734eb;
+}
+
+.chaco__texto--estilo {
+  letter-spacing: 3px;
+}
+
+/*SOBRE MÍ*/
+.contexto__texto {
+  margin: 15px;
+}
+
+#presentacion h1 {
+  margin: 15px;
+}
+
+#presentacion p {
+  margin: 15px;
+}
+
+/*CONTACTO*/
+.contacto__titulo {
+  color: #3734eb;
+  margin: 20px;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font: normal 15px "Michroma", sans-serif;
+  background: -webkit-gradient(linear, left top, right top, from(#45B649), to(#DCE35B));
+  background: linear-gradient(to right, #45B649, #DCE35B);
+}
+
+.inicio__titulo {
+  /*BEM*/
+  color: #3734eb;
+  text-align: center;
+  text-decoration: none;
+}
+
+#menu {
+  background: #283c86;
+  background: -webkit-gradient(linear, left top, right top, from(#45a247), to(#283c86));
+  background: linear-gradient(to right, #45a247, #283c86);
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: none;
+}
+
+.inicio__introduccion {
+  line-height: 22px;
+  letter-spacing: 3px;
+  margin: 15px;
+  background-color: #d9d9d9;
+  border-radius: 2px solid grey;
+}
+
+.mundo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: row-reverse nowrap;
+          flex-flow: row-reverse nowrap;
+  margin: 10px;
+  padding: 15px;
+}
+
+h3 {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+
+.checkVerde:before {
+  content: '✓';
+  color: green;
+}
+
+/*CONDICIONAL IF*/
+p {
+  font-size: 13px;
+}
+
+/*LISTA*/
+p {
+  color: #539e9e;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+#sobreMi {
+  /*pude achicar el carrusel pero no logro que el texto se ponga al lado*/
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  margin: 20px;
+}
+
+#carouselExampleFade {
+  width: 50%;
+  margin-left: 15px;
+}
+
+.contexto {
+  /*BEM*/
+  width: 50%;
+  margin-right: 15px;
+}
+
+.contexto__texto {
+  text-align: left;
+  margin-right: 15px;
+}
+
+.contexto__texto__titulo--estilo {
+  color: #3734eb;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contexto__texto__parrafo--bordes {
+  background-color: #d9d9d9;
+  border-radius: 2px solid grey;
+}
+
+#contacto {
+  margin: 15px;
+}
+
+#contacto .formulario {
+  /*BEM*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contacto .formulario__input--margen {
+  margin: 20px;
+}
+/*# sourceMappingURL=styles.css.map */

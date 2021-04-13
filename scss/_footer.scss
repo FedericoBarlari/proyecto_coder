@@ -1,0 +1,47 @@
+/*footer*/ 
+
+$lista-redes: (blue, facebook) (red, instagram) (blue, linkedin) (blue, twitter);
+
+@each $color-redes, $logo in $lista-redes { 
+    .#{$logo} {
+        color: $color-redes;
+    }
+    
+}
+
+footer {
+    
+    border-top: 2px dashed #004d00;
+    margin: 5px;
+
+
+    .redesSociales {
+        display: flex;
+        flex-flow: row-reverse nowrap;
+        justify-content: space-around;
+        margin: 15px;
+        padding: 10px;
+
+    }
+
+        .redesSociales__icono {  /*BEM*/
+            color:black;
+            font-size: 32px;
+            transition: font-size 1s  /*efecto de transición a las redes sociales*/
+        }
+
+
+        .redesSociales__icono:hover {
+             font-size: 40px
+        }
+
+
+    .derechos {
+
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        margin: 15px;
+        letter-spacing: $espaciado-letras;
+     }
+}
