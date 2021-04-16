@@ -9,9 +9,12 @@ $marginText: 15px;
 #presentacion {
     h1 {
         margin: $marginText;
+        color: $color-titulos;
+        text-align: center;
     }
     
     p {
         margin: $marginText;
     }
 }
+
