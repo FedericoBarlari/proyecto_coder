@@ -139,8 +139,8 @@ footer .derechos {
 
 body {
   font: normal 15px "Michroma", sans-serif;
-  background: -webkit-gradient(linear, left top, right top, from(#45B649), to(#DCE35B));
-  background: linear-gradient(to right, #45B649, #DCE35B);
+  background: -webkit-gradient(linear, left top, right top, from(#427b7c), color-stop(52%, #b0d51d), to(#00d4ff));
+  background: linear-gradient(90deg, #427b7c 0%, #b0d51d 52%, #00d4ff 100%);
 }
 
 .inicio__titulo {
