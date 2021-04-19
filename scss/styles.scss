@@ -95,12 +95,12 @@ body {
     }
 
 
-    $colores: rgb(83, 158, 158), green, red; /*LISTA*/
+    $colores: #333300, green, red; /*LISTA*/
 
-    $turquesa: nth($colores, 1);
+    $negroParrafo: nth($colores, 1);
 
     p {
-        color: $turquesa;
+        color: $negroParrafo;
     }
 
     
