@@ -17,6 +17,26 @@ $marginText: 15px;
         margin: $marginText;
         background-color: #d9d9d9;
         border-radius: $borde-textos;
+        line-height: 22px;
+        letter-spacing: $espaciado-letras;
     }
 }
 
+#contexto {
+
+    p {
+        margin: $marginText;
+        background-color: #d9d9d9;
+        border-radius: $borde-textos;
+        line-height: 22px;
+        letter-spacing: $espaciado-letras;
+    }
+
+
+}
+
+#carruselSobreMi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
