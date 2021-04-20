@@ -165,7 +165,7 @@ body {
   border-radius: 2px solid grey;
 }
 
-.mundo {
+.raiz {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
