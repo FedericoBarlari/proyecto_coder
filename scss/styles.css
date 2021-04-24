@@ -44,8 +44,9 @@ iframe {
 }
 
 footer {
-  border-top: 2px dashed #004d00;
-  margin: 5px;
+  border-top: 2px solid #004d00;
+  margin: 0;
+  background-color: white;
 }
 
 footer .redesSociales {
@@ -85,7 +86,6 @@ footer .derechos {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 15px;
   letter-spacing: 3px;
 }
 
@@ -249,7 +249,6 @@ h3 {
 }
 
 #sobreMi {
-  /*pude achicar el carrusel pero no logro que el texto se ponga al lado*/
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
