@@ -160,9 +160,13 @@ footer .derechos {
 }
 
 body {
-  font: normal 15px "Michroma", sans-serif;
+  font: normal 16px "Kanit", sans-serif;
   background: -webkit-gradient(linear, left top, right top, from(#427b7c), color-stop(52%, #b0d51d), to(#00d4ff));
   background: linear-gradient(90deg, #427b7c 0%, #b0d51d 52%, #00d4ff 100%);
+}
+
+h1 {
+  font-family: 'Cinzel', serif;
 }
 
 .inicio__titulo {
@@ -175,7 +179,6 @@ body {
 #menu {
   width: 100%;
   margin-bottom: 30px;
-  padding: 20px;
   border: none;
 }
 

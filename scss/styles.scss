@@ -1,4 +1,4 @@
-$fuente: normal 15px 'Michroma', sans-serif;
+$fuente: normal 16px 'Kanit', sans-serif;
 $color-fondo: linear-gradient(90deg, rgba(66,123,124,1) 0%, rgba(176,213,29,1) 52%, rgba(0,212,255,1) 100%);
 $color-titulos: #3734eb;
 $borde-textos: 2px solid grey;
@@ -22,6 +22,9 @@ body {
     background: $color-fondo;
 }
 
+    h1 {
+        font-family: 'Cinzel', serif;
+    }
 
     .inicio__titulo {   /*BEM*/
         color: $color-titulos;
@@ -32,7 +35,6 @@ body {
     #menu {
         width: 100%; 
         margin-bottom: 30px;
-        padding: 20px;
         border : none;
     }
 
