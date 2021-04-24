@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/*#e6e6ff*/
 /*prensa*/
 .articulos__titulo--centrado {
   text-align: center;
@@ -23,7 +24,7 @@ iframe {
 .prensa__titulo {
   text-align: center;
   margin: 15px;
-  color: #3734eb;
+  color: #88665c;
 }
 
 /*footer*/
@@ -44,7 +45,7 @@ iframe {
 }
 
 footer {
-  border-top: 2px solid #004d00;
+  border-top: 2px solid #bda89c;
   margin: 0;
   background-color: white;
 }
@@ -99,7 +100,7 @@ footer .derechos {
 }
 
 .chaco__titulo {
-  color: #3734eb;
+  color: #88665c;
 }
 
 .chaco__texto--estilo {
@@ -113,14 +114,14 @@ footer .derechos {
 
 #presentacion h1 {
   margin: 15px;
-  color: #3734eb;
+  color: #88665c;
   text-align: center;
 }
 
 #presentacion p {
   margin: 15px;
   background-color: #d9d9d9;
-  border-radius: 2px solid grey;
+  border-radius: 2px solid #bda89c;
   line-height: 22px;
   letter-spacing: 3px;
 }
@@ -128,7 +129,7 @@ footer .derechos {
 #contexto p {
   margin: 15px;
   background-color: #d9d9d9;
-  border-radius: 2px solid grey;
+  border-radius: 2px solid #bda89c;
   line-height: 22px;
   letter-spacing: 3px;
 }
@@ -147,7 +148,7 @@ footer .derechos {
 
 /*CONTACTO*/
 .contacto__titulo {
-  color: #3734eb;
+  color: #88665c;
   margin: 20px;
   text-align: center;
 }
@@ -161,8 +162,7 @@ footer .derechos {
 
 body {
   font: normal 16px "Kanit", sans-serif;
-  background: -webkit-gradient(linear, left top, right top, from(#427b7c), color-stop(52%, #b0d51d), to(#00d4ff));
-  background: linear-gradient(90deg, #427b7c 0%, #b0d51d 52%, #00d4ff 100%);
+  background: #e1dcd5;
 }
 
 h1 {
@@ -171,7 +171,7 @@ h1 {
 
 .inicio__titulo {
   /*BEM*/
-  color: #3734eb;
+  color: #88665c;
   text-align: center;
   text-decoration: none;
 }
@@ -182,12 +182,16 @@ h1 {
   border: none;
 }
 
+.nav-item {
+  color: #c7a29c;
+}
+
 .inicio__introduccion {
   line-height: 22px;
   letter-spacing: 3px;
   margin: 30px;
-  background-color: #d9d9d9;
-  border-radius: 2px solid grey;
+  background-color: #bda89c;
+  border-radius: 2px solid #bda89c;
 }
 
 .arboles {
@@ -219,11 +223,12 @@ h3 {
   display: inline-block;
   width: 33%;
   text-align: center;
+  color: #88665c;
 }
 
 .checkVerde:before {
   content: '✓';
-  color: green;
+  color: #88665c;
 }
 
 /*CONDICIONAL IF*/
@@ -275,14 +280,14 @@ h3 {
 }
 
 .contexto__texto__titulo--estilo {
-  color: #3734eb;
+  color: #88665c;
   text-align: center;
   text-decoration: none;
 }
 
 .contexto__texto__parrafo--bordes {
   background-color: #d9d9d9;
-  border-radius: 2px solid grey;
+  border-radius: 2px solid #bda89c;
 }
 
 #contacto {
