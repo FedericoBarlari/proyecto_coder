@@ -28,22 +28,6 @@ iframe {
 }
 
 /*footer*/
-.facebook {
-  color: blue;
-}
-
-.instagram {
-  color: red;
-}
-
-.linkedin {
-  color: blue;
-}
-
-.twitter {
-  color: blue;
-}
-
 footer {
   border-top: 2px solid #bda89c;
   margin: 0;
@@ -66,7 +50,7 @@ footer .redesSociales {
 
 footer .redesSociales__icono {
   /*BEM*/
-  color: black;
+  color: #342c20;
   font-size: 32px;
   -webkit-transition: font-size 1s;
   transition: font-size 1s;
@@ -226,7 +210,7 @@ h3 {
   color: #88665c;
 }
 
-.checkVerde:before {
+.check:before {
   content: '✓';
   color: #88665c;
 }

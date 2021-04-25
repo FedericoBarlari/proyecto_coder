@@ -1,14 +1,5 @@
 /*footer*/ 
 
-$lista-redes: (blue, facebook) (red, instagram) (blue, linkedin) (blue, twitter);
-
-@each $color-redes, $logo in $lista-redes { 
-    .#{$logo} {
-        color: $color-redes;
-    }
-    
-}
-
 footer {
     
     border-top: 2px solid #bda89c;
@@ -26,7 +17,7 @@ footer {
     }
 
         .redesSociales__icono {  /*BEM*/
-            color:black;
+            color: #342c20;
             font-size: 32px;
             transition: font-size 1s  /*efecto de transición a las redes sociales*/
         }
