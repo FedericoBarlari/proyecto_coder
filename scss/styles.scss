@@ -8,7 +8,7 @@ $espaciado-letras: 3px;
 
 
 
-@import "prensa";
+@import "galeria";
 @import "footer";
 @import "trabajos";
 @import "sobremi";
@@ -46,6 +46,11 @@ body {
         border: $borde-textos;
         background-color: #b98879;
         margin: 0;
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
 
     }
 
@@ -61,18 +66,31 @@ body {
 
             line-height: 1.37em;
             letter-spacing: $espaciado-letras;
-            margin: 2em;
+            margin: 1em;
             color: #e6c9b7;
         
         }
+
+    .contenedor-doble {
+        border: $borde-textos;
+        background-color: #dad1ca;
+        margin: 0;
+      
+    }
     
+    .inicio__frase {
+        line-height: 1.37em;
+        letter-spacing: $espaciado-letras;
+        margin: 0.625em;
+        padding: 0.9375em;
+        align-self: center;
+        
+
+    }
     
     .nombre {
-    
-        display: flex;
-        flex-flow: row-reverse nowrap;
-        margin: 10px;
-        padding: 15px;
+        margin: 0.625em;
+        padding: 0.9375em;
     }
     
     
