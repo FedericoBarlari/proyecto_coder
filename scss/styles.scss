@@ -35,7 +35,7 @@ body {
     #menu {
         width: 100%; 
         margin-bottom: 1.87em;
-        border : none;
+    
     }
         .nav-item {
             color: #c7a29c;
@@ -73,8 +73,9 @@ body {
 
     .contenedor-doble {
         border: $borde-textos;
-        background-color: #dad1ca;
+        background-color: #ede8e5;
         margin: 0;
+        border-bottom: none;
       
     }
     
@@ -82,15 +83,26 @@ body {
         line-height: 1.37em;
         letter-spacing: $espaciado-letras;
         margin: 0.625em;
-        padding: 0.9375em;
-        align-self: center;
-        
+        padding: 0.9375em; 
 
     }
+
+    .contenedor-frase {
+        justify-content: center;
+        align-items: center;
+        background-color: #b98879;
+        
+    }
+
+        h2 {
+            color: $color-titulos;
+            
+        }
     
     .nombre {
         margin: 0.625em;
         padding: 0.9375em;
+        
     }
     
     
@@ -172,22 +184,7 @@ body {
                 border-radius: $borde-textos;
             }
 
-     #contacto {
-         margin: 15px;
-           
-
-        .formulario {  /*BEM*/
-            display: flex;
-	        justify-content: center;
-	        align-items: center;
-	        flex-direction: column;
-            
-        }
-
-            .formulario__input--margen {
-                margin: 20px;
-            }
-    } 
+     
     
     
    

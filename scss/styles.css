@@ -105,6 +105,31 @@ footer .derechos {
 }
 
 /*CONTACTO*/
+#contacto {
+  margin: 15px;
+}
+
+#contacto .formulario {
+  /*BEM*/
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contacto .formulario__input--margen {
+  margin: 20px;
+}
+
 .contacto__titulo {
   color: #4c4236;
   margin: 20px;
@@ -131,7 +156,6 @@ h1 {
 #menu {
   width: 100%;
   margin-bottom: 1.87em;
-  border: none;
 }
 
 .nav-item {
@@ -174,8 +198,9 @@ h1 {
 
 .contenedor-doble {
   border: 2px solid #b6917f;
-  background-color: #dad1ca;
+  background-color: #ede8e5;
   margin: 0;
+  border-bottom: none;
 }
 
 .inicio__frase {
@@ -183,9 +208,20 @@ h1 {
   letter-spacing: 3px;
   margin: 0.625em;
   padding: 0.9375em;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+}
+
+.contenedor-frase {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #b98879;
+}
+
+h2 {
+  color: #4c4236;
 }
 
 .nombre {
@@ -257,30 +293,5 @@ h3 {
 .contexto__texto__parrafo--bordes {
   background-color: #d9d9d9;
   border-radius: 2px solid #b6917f;
-}
-
-#contacto {
-  margin: 15px;
-}
-
-#contacto .formulario {
-  /*BEM*/
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#contacto .formulario__input--margen {
-  margin: 20px;
 }
 /*# sourceMappingURL=styles.css.map */

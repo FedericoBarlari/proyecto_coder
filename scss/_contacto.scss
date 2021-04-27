@@ -1,5 +1,22 @@
 /*CONTACTO*/ 
 
+#contacto {
+    margin: 15px;
+      
+
+   .formulario {  /*BEM*/
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       
+   }
+
+       .formulario__input--margen {
+           margin: 20px;
+       }
+} 
+
 .contacto__titulo {
     color: $color-titulos;
     margin: 20px;
