@@ -59,6 +59,7 @@ body {
             color: $color-titulos;
             text-decoration: none;
             margin: 1em;
+          
     }
 
 
@@ -71,7 +72,7 @@ body {
         
         }
 
-    .contenedor-doble {
+    .contenedor-mixto {
         border: $borde-textos;
         background-color: #ede8e5;
         margin: 0;
@@ -87,25 +88,31 @@ body {
 
     }
 
-    .contenedor-frase {
+    .frase-jane {
         justify-content: center;
         align-items: center;
         background-color: #b98879;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: calc(50vh - 2.5em);
+        
         
     }
 
-        h2 {
-            color: $color-titulos;
+        .frase-jane__estilo {
+            color: $color-titulos;  
             
         }
     
-    .nombre {
-        margin: 0.625em;
-        padding: 0.9375em;
+        .nombre {
+            margin: 0.625em;
+            padding: 0.9375em;
+            font-size: 1.5em;
+            
+        }
+
         
-    }
-    
-    
+
     
     .check {
     
