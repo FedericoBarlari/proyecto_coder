@@ -1,25 +1,27 @@
 /*SOBRE MÍ*/ 
 
-$marginText: 15px;
-
-.contexto__texto {
-    margin: $marginText;
-}
+$marginText: 0.5em 3em;
 
 #presentacion {
-    h1 {
-        margin: $marginText;
-        color: $color-titulos;
-        text-align: center;
+
+    .presentacion__caja--estilos {
+        border: $borde-textos;
+        background-color: #b98879;
+        margin: 0;
+        padding: auto 2rem;
+        width: 100%;
     }
-    
-    p {
-        margin: $marginText;
-        background-color: #d9d9d9;
-        border-radius: $borde-textos;
-        line-height: 22px;
-        letter-spacing: $espaciado-letras;
-    }
+        .presentacion__titulo {
+            margin: $marginText;
+            color: $color-titulos;
+            text-align: center;
+        }
+        
+        .presentacion__parrafo {
+            margin: $marginText;
+            line-height: 1.37em;
+            letter-spacing: $espaciado-letras;
+        }
 }
 
 #contexto {
@@ -35,8 +37,20 @@ $marginText: 15px;
 
 }
 
-#carruselSobreMi {
+.contexto__texto__titulo--estilo {
+    color: $color-titulos;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+#carrusel-sobremi {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#carouselExampleFade {
+    width: 50%;
+    margin-left: 15px;
 }

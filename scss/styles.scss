@@ -62,7 +62,6 @@ body {
           
     }
 
-
         .inicio__introduccion {
 
             line-height: 1.37em;
@@ -111,8 +110,6 @@ body {
             
         }
 
-        
-
     
     .check {
     
@@ -154,42 +151,6 @@ body {
         
     }
 
-
-
-
-    #sobreMi {     
-        width: 100%;  
-        display: flex;
-        position: sticky;
-        margin: 20px;
-    }
-
-    #carouselExampleFade {
-        width: 50%;
-        margin-left: 15px;
-    }
-
-    .contexto {  /*BEM*/
-        width: 50%;
-        margin-right: 15px;
-    }
-
-        .contexto__texto {
-            text-align: left;
-            margin-right: 15px;
-        
-        }
-
-            .contexto__texto__titulo--estilo {
-                color: $color-titulos;
-                text-align: center;
-                text-decoration: none;
-            }
-
-            .contexto__texto__parrafo--bordes {
-                background-color: #d9d9d9;
-                border-radius: $borde-textos;
-            }
 
      
     
