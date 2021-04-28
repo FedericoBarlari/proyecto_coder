@@ -12,8 +12,8 @@ $margen-texto: 0.5em 3em;
      
     }
         .presentacion__titulo {
-            margin: $margen-texto;
             color: $color-titulos;
+            margin: 1em ;
         
         }
         
@@ -26,6 +26,15 @@ $margen-texto: 0.5em 3em;
             padding-bottom: 1em;
         
         }
+
+        .link-trabajos {
+            text-decoration: none;
+            color: whitesmoke;
+            margin: $margen-texto;
+            font-size: 1.25em;
+            padding: auto 4em;
+            align-self: center;
+        }
 }
 
 .bosque-niebla {
@@ -34,24 +43,43 @@ $margen-texto: 0.5em 3em;
         }
 }   
 
-#contexto {
+.contexto__texto {
+    background-color: #f1f0ee;
+}
 
-    p {
-        margin: $margen-texto;
-        background-color: #d9d9d9;
+    .contexto__texto__parrafo--estilo {
+        margin: 3em;
         border-radius: $borde-textos;
-        line-height: 22px;
+        line-height: 1.37em;
+        font-size: 1.25em;
         letter-spacing: $espaciado-letras;
+        text-align: justify;
     }
 
 
-}
+    .contexto__texto__titulo--estilo {
+        color: $color-titulos;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 1em;
+    }
 
-.contexto__texto__titulo--estilo {
-    color: $color-titulos;
-    text-align: center;
-    text-decoration: none;
-}
+
+    .check {
+    
+        display: inline-block;
+        width: 33%;
+        text-align: center;
+        color: #88665c;
+    
+    }
+    
+    .check:before {
+    
+        content : '✓';
+        color : #88665c;
+    
+    }	
 
 
 #carrusel-sobremi {
