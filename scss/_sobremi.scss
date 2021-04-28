@@ -1,33 +1,43 @@
 /*SOBRE MÍ*/ 
 
-$marginText: 0.5em 3em;
+$margen-texto: 0.5em 3em;
 
 #presentacion {
 
-    .presentacion__caja--estilos {
+    .presentacion__caja {
         border: $borde-textos;
         background-color: #b98879;
         margin: 0;
-        padding: auto 2rem;
         width: 100%;
+     
     }
         .presentacion__titulo {
-            margin: $marginText;
+            margin: $margen-texto;
             color: $color-titulos;
-            text-align: center;
+        
         }
         
         .presentacion__parrafo {
-            margin: $marginText;
+            margin: $margen-texto;
+            font-size: 1.25em;
             line-height: 1.37em;
             letter-spacing: $espaciado-letras;
+            padding-left: 4em;
+            padding-bottom: 1em;
+        
         }
 }
+
+.bosque-niebla {
+        img {
+            width: 100%;
+        }
+}   
 
 #contexto {
 
     p {
-        margin: $marginText;
+        margin: $margen-texto;
         background-color: #d9d9d9;
         border-radius: $borde-textos;
         line-height: 22px;
