@@ -35,6 +35,7 @@ $margen-texto: 0.5em 3em;
             padding: auto 4em;
             align-self: center;
         }
+        
 }
 
 .bosque-niebla {
@@ -58,28 +59,50 @@ $margen-texto: 0.5em 3em;
 
 
     .contexto__texto__titulo--estilo {
-        color: $color-titulos;
+        color: #b98879;
         text-align: center;
         text-decoration: none;
         margin-left: 1em;
     }
 
-
-    .check {
-    
-        display: inline-block;
-        width: 33%;
-        text-align: center;
-        color: #88665c;
-    
+ 
+    .tres-check {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 3.5em;
+        background-color: #b98879;
     }
+
+        .cajita-check {
+            width: 33%;
+            text-align: center;
     
-    .check:before {
-    
-        content : '✓';
-        color : #88665c;
-    
-    }	
+        }
+
+            .icono-persona {
+                font-size: 2.5em;
+            } 
+
+            p {
+                font-size: 1.5em;
+            }
+
+            .check {
+            
+                color: #88665c;
+                font-size: 1.8em;
+            }
+            
+            .check:before {
+            
+                content : '✓';
+                color : #46413b;
+            }	
 
 
 #carrusel-sobremi {

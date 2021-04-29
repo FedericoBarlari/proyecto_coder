@@ -25,7 +25,7 @@ footer .redesSociales {
 footer .redesSociales__icono {
   /*BEM*/
   color: #342c20;
-  font-size: 32px;
+  font-size: 2em;
   -webkit-transition: font-size 1s;
   transition: font-size 1s;
 }
@@ -116,22 +116,53 @@ footer .derechos {
 }
 
 .contexto__texto__titulo--estilo {
-  color: #4c4236;
+  color: #b98879;
   text-align: center;
   text-decoration: none;
   margin-left: 1em;
 }
 
-.check {
-  display: inline-block;
+.tres-check {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3.5em;
+  background-color: #b98879;
+}
+
+.cajita-check {
   width: 33%;
   text-align: center;
+}
+
+.icono-persona {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+.check {
   color: #88665c;
+  font-size: 1.8em;
 }
 
 .check:before {
   content: '✓';
-  color: #88665c;
+  color: #46413b;
 }
 
 #carrusel-sobremi {
