@@ -1,6 +1,47 @@
 @charset "UTF-8";
 /*#e6e6ff*/
-/*galeria*/
+/*galería con grid*/
+.galeria {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  grid-gap: 100px;
+  margin-bottom: 3em;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.galeria__item {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.galeria__imagen {
+  width: 100%;
+  height: 100%;
+}
+
+.galeria__imagen img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+  cursor: pointer;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.galeria__item:hover .galeria__imagen img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  /*las imágenes se agrandan con una transición suave cuando paso el cursor sobre ellas*/
+}
+
 /*footer*/
 footer {
   border-top: 2px solid #bda89c;
@@ -149,6 +190,7 @@ footer .derechos {
 
 .icono-persona {
   font-size: 2.5em;
+  color: #775b48;
 }
 
 p {
@@ -287,6 +329,7 @@ h1 {
   letter-spacing: 3px;
   margin: 0.625em;
   padding: 0.9375em;
+  width: 30%;
 }
 
 .frase-jane {
@@ -304,6 +347,7 @@ h1 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: calc(50vh - 2.5em);
+  /*aumenté el tamaño del contenedor*/
 }
 
 .frase-jane__estilo {

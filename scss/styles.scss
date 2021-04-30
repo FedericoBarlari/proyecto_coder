@@ -87,7 +87,10 @@ body {
         line-height: 1.37em;
         letter-spacing: $espaciado-letras;
         margin: 0.625em;
-        padding: 0.9375em; 
+        padding: 0.9375em;
+        width: 30%;
+      
+  
 
     }
 
@@ -97,7 +100,7 @@ body {
         background-color: #b98879;
         flex-direction: column;
         flex-wrap: wrap;
-        height: calc(50vh - 2.5em);
+        height: calc(50vh - 2.5em); /*aumenté el tamaño del contenedor*/
         
         
     }
