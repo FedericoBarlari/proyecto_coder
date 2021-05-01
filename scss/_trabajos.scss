@@ -1,19 +1,27 @@
 /*trabajos*/
 
 
-.chaco {
-    margin: 1em;
+.chaco-container {
+    border: $borde-textos;
+    background-color: #bda89c;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 .chaco__titulo {
     color: $color-titulos;
     margin: 1em;
+    text-align: center;
+    
 }
 
 .chaco__texto--estilo {
     line-height: 1.37em;
+    width: 50%;
+    text-align: center;
     letter-spacing: $espaciado-letras;
     margin: 1em;
-   
     color: #e6c9b7;
 }

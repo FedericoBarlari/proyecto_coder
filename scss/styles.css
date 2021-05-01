@@ -121,17 +121,30 @@ footer .derechos {
 }
 
 /*trabajos*/
-.chaco {
-  margin: 1em;
+.chaco-container {
+  border: 2px solid #b6917f;
+  background-color: #bda89c;
+  margin: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 .chaco__titulo {
   color: #4c4236;
   margin: 1em;
+  text-align: center;
 }
 
 .chaco__texto--estilo {
   line-height: 1.37em;
+  width: 50%;
+  text-align: center;
   letter-spacing: 3px;
   margin: 1em;
   color: #e6c9b7;
