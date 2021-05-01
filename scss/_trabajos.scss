@@ -1,21 +1,19 @@
 /*trabajos*/
 
-.imagenEnChaco {
-   text-align: center;
-}
 
 .chaco {
-    margin: 15px;
+    margin: 1em;
 }
 
 .chaco__titulo {
     color: $color-titulos;
+    margin: 1em;
 }
 
 .chaco__texto--estilo {
+    line-height: 1.37em;
     letter-spacing: $espaciado-letras;
-}
-
-@mixin name { /*quiero que tanto el texto como el titulo tengan el borde gris que definí en una variable en el styles.scss*/
-    
+    margin: 1em;
+   
+    color: #e6c9b7;
 }

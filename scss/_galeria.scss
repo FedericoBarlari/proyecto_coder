@@ -57,3 +57,17 @@
  .fila__alto--tres {
      grid-row: span 3;
  }
+
+ @media screen and (max-width:576px) {
+     .galeria {
+        grid-template-columns: repeat(1,1fr);
+     }
+     .columna__ancho--dos {
+         grid-column: span 1;
+     } 
+     
+ }
+
+ @media screen and (max-width:768px) {
+     
+ }
