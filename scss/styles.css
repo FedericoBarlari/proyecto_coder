@@ -125,29 +125,52 @@ footer .derechos {
   border: 2px solid #b6917f;
   background-color: #bda89c;
   margin: 0;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
+  padding: 1em;
+  width: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.chaco__titulo {
+.chaco-container .chaco__titulo {
   color: #4c4236;
   margin: 1em;
   text-align: center;
 }
 
-.chaco__texto--estilo {
+.chaco-container .chaco__texto--estilo {
+  font-size: 1.25em;
   line-height: 1.37em;
   width: 50%;
   text-align: center;
   letter-spacing: 3px;
   margin: 1em;
-  color: #e6c9b7;
+  color: #775b48;
+}
+
+.chaco-container a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 1.25em;
+}
+
+.plan-container {
+  background-color: white;
+  border: 2px solid #b6917f;
+  width: 50%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 /*SOBRE MÍ*/
@@ -198,6 +221,7 @@ footer .derechos {
   font-size: 1.25em;
   letter-spacing: 3px;
   text-align: justify;
+  color: #775b48;
 }
 
 .contexto__texto__titulo--estilo {
