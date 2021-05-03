@@ -122,55 +122,57 @@ footer .derechos {
 
 /*trabajos*/
 .chaco-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.chaco-container__texto {
   border: 2px solid #b6917f;
   background-color: #bda89c;
   margin: 0;
   padding: 1em;
   width: 50%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
 }
 
-.chaco-container .chaco__titulo {
+.chaco-container__texto .chaco__titulo {
   color: #4c4236;
   margin: 1em;
-  text-align: center;
 }
 
-.chaco-container .chaco__texto--estilo {
+.chaco-container__texto .chaco__texto--estilo {
   font-size: 1.25em;
   line-height: 1.37em;
-  width: 50%;
-  text-align: center;
   letter-spacing: 3px;
   margin: 1em;
   color: #775b48;
 }
 
-.chaco-container a {
+.chaco-container__texto a {
   text-decoration: none;
   color: whitesmoke;
   font-size: 1.25em;
+  margin: 1em;
 }
 
-.plan-container {
+.chaco-container__plan {
   background-color: white;
-  border: 2px solid #b6917f;
+  border: none;
   width: 50%;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  position: relative;
+}
+
+.chaco-flyer {
+  position: absolute;
+  z-index: 1;
 }
 
 /*SOBRE MÍ*/
@@ -385,7 +387,7 @@ h1 {
       align-self: center;
 }
 
-.contenedor-mixto {
+.contenedor-bosque {
   border: 2px solid #b6917f;
   background-color: #ede8e5;
   margin: 0;
@@ -393,11 +395,17 @@ h1 {
 }
 
 .inicio__frase {
+  font-size: 1.8em;
   line-height: 1.37em;
   letter-spacing: 3px;
-  margin: 0.625em;
   padding: 0.9375em;
-  width: 30%;
+  margin-left: 4em;
+  width: 50%;
+}
+
+.amanecer-bosque {
+  width: 50%;
+  margin-right: 4em;
 }
 
 .frase-jane {
@@ -423,7 +431,44 @@ h1 {
   font-size: 1.8em;
 }
 
-.nombre {
+.jane-goodall {
+  margin: 0.625em;
+  padding: 0.9375em;
+  font-size: 1.5em;
+}
+
+.contenedor-doble {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.amanecer-playero {
+  width: 50%;
+  margin-left: 4em;
+}
+
+.frase-abbey {
+  width: 50%;
+  margin-right: 4em;
+}
+
+.frase-abbey p {
+  font-size: 1.8em;
+  color: #4c4236;
+}
+
+.frase-abbey strong {
   margin: 0.625em;
   padding: 0.9375em;
   font-size: 1.5em;

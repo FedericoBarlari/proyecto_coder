@@ -2,48 +2,59 @@
 
 
 .chaco-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+ 
+}
+
+
+.chaco-container__texto {
     border: $borde-textos;
     background-color: #bda89c;
     margin: 0;
     padding: 1em;
     width: 50%;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    text-align: center;
+  
+    
 
     .chaco__titulo {
         color: $color-titulos;
         margin: 1em;
-        text-align: center;
 
     }
 
     .chaco__texto--estilo {
         font-size: 1.25em;
         line-height: 1.37em;
-        width: 50%;
-        text-align: center;
         letter-spacing: $espaciado-letras;
         margin: 1em;
         color: #775b48;
+        
     }
 
     a {
         text-decoration: none;
         color: whitesmoke;
         font-size: 1.25em;
+        margin: 1em;
     
     }
 
 }
 
-.plan-container {
-    background-color: white;
-    border: $borde-textos;
-    width: 50%;
-    display: inline-flex;
-    
+    .chaco-container__plan {
+        background-color: white;
+        border: none;
+        width: 50%;
+        position: relative;
+        
+    }
 
-}
+    .chaco-flyer {
+        position: absolute;
+        z-index: 1;
+             
+    }
