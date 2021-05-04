@@ -226,6 +226,23 @@ footer .derechos {
   color: #775b48;
 }
 
+.logos-trabajos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logos-trabajos img {
+  cursor: pointer;
+  margin: 2em auto;
+}
+
 /*SOBRE MÍ*/
 #presentacion .presentacion__caja {
   border: 2px solid #b6917f;
@@ -410,7 +427,7 @@ h1 {
   line-height: 1.37em;
   letter-spacing: 3px;
   margin: 1em;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   color: #e6c9b7;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -428,7 +445,7 @@ h1 {
 }
 
 .inicio__frase {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   line-height: 1.37em;
   letter-spacing: 3px;
   padding: 0.9375em;
@@ -461,13 +478,13 @@ h1 {
 
 .frase-jane__estilo {
   color: #4c4236;
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 
 .jane-goodall {
   margin: 0.625em;
   padding: 0.9375em;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .contenedor-doble {
@@ -494,17 +511,30 @@ h1 {
 .frase-abbey {
   width: 50%;
   margin-right: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .frase-abbey p {
-  font-size: 1.8em;
+  font-size: 1.8rem;
   color: #4c4236;
 }
 
 .frase-abbey strong {
   margin: 0.625em;
   padding: 0.9375em;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 /*LISTA*/
