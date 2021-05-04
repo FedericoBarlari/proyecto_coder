@@ -127,16 +127,19 @@ footer .derechos {
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #b48b7b;
+  border: 2px solid #b6917f;
 }
 
 .chaco-container__texto {
-  border: 2px solid #b6917f;
-  background-color: #bda89c;
   margin: 0;
   padding: 1em;
   width: 50%;
@@ -153,7 +156,6 @@ footer .derechos {
   line-height: 1.37em;
   letter-spacing: 3px;
   margin: 1em;
-  color: #775b48;
 }
 
 .chaco-container__texto a {
@@ -164,15 +166,64 @@ footer .derechos {
 }
 
 .chaco-container__plan {
-  background-color: white;
   border: none;
   width: 50%;
-  position: relative;
 }
 
-.chaco-flyer {
-  position: absolute;
-  z-index: 1;
+.chaco-container__plan .chaco-flyer {
+  text-align: center;
+}
+
+#carrusel-trabajos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#carouselExampleFade {
+  width: 50%;
+  padding: 1em;
+  margin: 1em;
+}
+
+.container-asesorias {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  border: 2px solid #b6917f;
+  background-color: #b98879;
+  width: 100%;
+  padding: 3em;
+}
+
+.asesorias__titulo {
+  color: #4c4236;
+  width: 25%;
+}
+
+.asesorias__texto {
+  width: 25%;
+}
+
+.icono-manito {
+  font-size: 2.5em;
+  color: #775b48;
 }
 
 /*SOBRE MÍ*/
@@ -223,11 +274,10 @@ footer .derechos {
   font-size: 1.25em;
   letter-spacing: 3px;
   text-align: justify;
-  color: #775b48;
 }
 
 .contexto__texto__titulo--estilo {
-  color: #b98879;
+  color: #4c4236;
   text-align: center;
   text-decoration: none;
   margin-left: 1em;
@@ -275,23 +325,6 @@ p {
 .check:before {
   content: '✓';
   color: #46413b;
-}
-
-#carrusel-sobremi {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#carouselExampleFade {
-  width: 50%;
-  margin-left: 15px;
 }
 
 /*CONTACTO*/

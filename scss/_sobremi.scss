@@ -55,12 +55,12 @@ $margen-texto: 0.5em 3em;
         font-size: 1.25em;
         letter-spacing: $espaciado-letras;
         text-align: justify;
-        color: #775b48;
+        
     }
 
 
     .contexto__texto__titulo--estilo {
-        color: #b98879;
+        color: $color-titulos;
         text-align: center;
         text-decoration: none;
         margin-left: 1em;
@@ -106,14 +106,3 @@ $margen-texto: 0.5em 3em;
                 color : #46413b;
             }	
 
-
-#carrusel-sobremi {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#carouselExampleFade {
-    width: 50%;
-    margin-left: 15px;
-}
