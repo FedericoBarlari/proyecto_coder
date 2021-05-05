@@ -1,7 +1,9 @@
 /*CONTACTO*/ 
 
+$formulario__pie--margen: 1em;
+
 #contacto {
-    margin: 15px;
+    margin: 2em;
       
 
    .formulario {  /*BEM*/
@@ -13,12 +15,29 @@
    }
 
        .formulario__input--margen {
-           margin: 20px;
+           margin: 1.25em;
        }
 } 
 
 .contacto__titulo {
     color: $color-titulos;
-    margin: 20px;
+    margin: 1.25em;
     text-align: center;
+}
+
+.checkbox {
+    text-align: center;
+}
+
+.formulario__pie {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    strong, .checkbox, .formulario__botones {
+        margin: $formulario__pie--margen;
+    }
+
+   
 }

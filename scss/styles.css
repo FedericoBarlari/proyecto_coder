@@ -346,7 +346,7 @@ p {
 
 /*CONTACTO*/
 #contacto {
-  margin: 15px;
+  margin: 2em;
 }
 
 #contacto .formulario {
@@ -367,13 +367,37 @@ p {
 }
 
 #contacto .formulario__input--margen {
-  margin: 20px;
+  margin: 1.25em;
 }
 
 .contacto__titulo {
   color: #4c4236;
-  margin: 20px;
+  margin: 1.25em;
   text-align: center;
+}
+
+.checkbox {
+  text-align: center;
+}
+
+.formulario__pie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formulario__pie strong, .formulario__pie .checkbox, .formulario__pie .formulario__botones {
+  margin: 1em;
 }
 
 * {
@@ -445,17 +469,26 @@ h1 {
 }
 
 .inicio__frase {
-  font-size: 1.8rem;
-  line-height: 1.37em;
-  letter-spacing: 3px;
-  padding: 0.9375em;
   margin-left: 4em;
   width: 50%;
 }
 
+.inicio__frase p {
+  font-size: 1.8rem;
+  line-height: 1.37em;
+  letter-spacing: 3px;
+  padding: 0.9375em;
+  color: #4c4236;
+}
+
+.inicio__frase .joaquin-araujo {
+  margin: 0.625em;
+  padding: 0.9375em;
+  font-size: 1.5rem;
+}
+
 .amanecer-bosque {
   width: 50%;
-  margin-right: 4em;
 }
 
 .frase-jane {
@@ -487,7 +520,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-.contenedor-inicio-playa {
+.contenedor-playa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

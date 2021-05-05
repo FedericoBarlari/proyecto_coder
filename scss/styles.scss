@@ -83,18 +83,30 @@ body {
     }
     
     .inicio__frase {
+        margin-left: 4em;
+        width: 50%;
+
+        p {
         font-size: 1.8rem;
         line-height: 1.37em;
         letter-spacing: $espaciado-letras;
         padding: 0.9375em;
-        margin-left: 4em;
-        width: 50%;
+        color: $color-titulos;
+        }
+
+        .joaquin-araujo {
+            margin: 0.625em;
+            padding: 0.9375em;
+            font-size: 1.5rem;
+            
+        }
 
     }
 
     .amanecer-bosque {
         width: 50%;
-        margin-right: 4em;
+        
+        
     }
 
 
@@ -121,7 +133,7 @@ body {
         }
 
 
-    .contenedor-inicio-playa {
+    .contenedor-playa {
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-evenly;
