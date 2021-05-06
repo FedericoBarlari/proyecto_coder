@@ -67,7 +67,6 @@ body {
             letter-spacing: $espaciado-letras;
             margin: 1em;
             font-size: 1.25rem;
-            color: #e6c9b7;
             justify-content: center;
             align-self: center;
 
@@ -170,10 +169,6 @@ body {
     }
 
 
-
-
-
-
     $colores: #333300, green, red; /*LISTA*/
 
     $negroParrafo: nth($colores, 1);
@@ -195,6 +190,18 @@ body {
         }
         
     }
+
+    @media screen and (max-width:576px) {
+        .contenedor-inicio {
+            display: block;
+           
+      
+    
+        }
+    
+
+    }
+
 
 
      
