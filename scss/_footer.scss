@@ -18,7 +18,7 @@ footer {
 
         .redesSociales__icono {  /*BEM*/
             color: #342c20;
-            font-size: 2em;
+            font-size: 2rem;
             transition: font-size 1s  /*efecto de transición a las redes sociales*/
         }
 
@@ -35,4 +35,18 @@ footer {
         justify-content: center;
         letter-spacing: $espaciado-letras;
      }
+}
+
+
+@media screen and (max-width:576px) {
+    .derechos {
+        display: block;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .redesSociales__icono {
+        font-size: 1rem;
+    }
+
 }

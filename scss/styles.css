@@ -97,7 +97,7 @@ footer .redesSociales {
 footer .redesSociales__icono {
   /*BEM*/
   color: #342c20;
-  font-size: 2em;
+  font-size: 2rem;
   -webkit-transition: font-size 1s;
   transition: font-size 1s;
 }
@@ -118,6 +118,17 @@ footer .derechos {
       -ms-flex-pack: center;
           justify-content: center;
   letter-spacing: 3px;
+}
+
+@media screen and (max-width: 576px) {
+  .derechos {
+    display: block;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .redesSociales__icono {
+    font-size: 1rem;
+  }
 }
 
 /*trabajos*/
@@ -486,12 +497,12 @@ h1 {
   border-bottom: none;
 }
 
-.inicio__frase {
+.contenedor-bosque .inicio__frase {
   margin-left: 4em;
   width: 50%;
 }
 
-.inicio__frase p {
+.contenedor-bosque .inicio__frase p {
   font-size: 1.8rem;
   line-height: 1.37em;
   letter-spacing: 3px;
@@ -499,7 +510,7 @@ h1 {
   color: #4c4236;
 }
 
-.inicio__frase .joaquin-araujo {
+.contenedor-bosque .inicio__frase .joaquin-araujo {
   margin: 0.625em;
   padding: 0.9375em;
   font-size: 1.5rem;
@@ -530,6 +541,8 @@ h1 {
 .frase-jane__estilo {
   color: #4c4236;
   font-size: 1.8rem;
+  line-height: 1.37em;
+  padding: 0.9375em;
 }
 
 .jane-goodall {
@@ -588,26 +601,113 @@ h1 {
   font-size: 1.5rem;
 }
 
-/*LISTA*/
-p {
-  color: #333300;
-}
-
-h1 {
-  font-size: 2.5em;
-}
-
-h2 {
-  font-size: 1.5em;
-}
-
-h3 {
-  font-size: 1.2em;
-}
-
 @media screen and (max-width: 576px) {
   .contenedor-inicio {
     display: block;
+  }
+  .contenedor-inicio .inicio__titulo {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  .contenedor-inicio .inicio__introduccion {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  .contenedor-bosque {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor-bosque .inicio__frase {
+    width: 100%;
+    margin: 1em;
+  }
+  .contenedor-bosque .inicio__frase p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .contenedor-bosque .inicio__frase .joaquin-araujo {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.3em;
+  }
+  .contenedor-bosque .amanecer-bosque {
+    text-align: center;
+  }
+  .contenedor-bosque .amanecer-bosque img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .frase-jane {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  .frase-jane .frase-jane__estilo {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .frase-jane .jane-goodall {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.3em;
+  }
+  .contenedor-playa {
+    display: block;
+  }
+  .contenedor-playa .amanecer-playero {
+    text-align: center;
+    margin: auto;
+  }
+  .contenedor-playa .amanecer-playero img {
+    width: 100%;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contenedor-playa .frase-abbey {
+    text-align: center;
+    margin: 1em auto;
+  }
+  .contenedor-playa .frase-abbey p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .contenedor-playa .frase-abbey strong {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contenedor-inicio {
+    display: block;
+  }
+  .contenedor-inicio .inicio__titulo {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .contenedor-inicio .inicio__introduccion {
+    font-size: 1rem;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -79,32 +79,32 @@ body {
         margin: 0;
         border-bottom: none;
       
-    }
     
-    .inicio__frase {
-        margin-left: 4em;
-        width: 50%;
+    
+        .inicio__frase {
+            margin-left: 4em;
+            width: 50%;
 
-        p {
-        font-size: 1.8rem;
-        line-height: 1.37em;
-        letter-spacing: $espaciado-letras;
-        padding: 0.9375em;
-        color: $color-titulos;
-        }
-
-        .joaquin-araujo {
-            margin: 0.625em;
+            p {
+            font-size: 1.8rem;
+            line-height: 1.37em;
+            letter-spacing: $espaciado-letras;
             padding: 0.9375em;
-            font-size: 1.5rem;
-            
-        }
+            color: $color-titulos;
+            }
 
+            .joaquin-araujo {
+                margin: 0.625em;
+                padding: 0.9375em;
+                font-size: 1.5rem;
+                
+            }
+
+        }
     }
 
     .amanecer-bosque {
         width: 50%;
-        
         
     }
 
@@ -120,7 +120,9 @@ body {
 
         .frase-jane__estilo {
             color: $color-titulos;
-            font-size: 1.8rem;  
+            font-size: 1.8rem;
+            line-height: 1.37em;
+            padding: 0.9375em;  
             
         }
     
@@ -169,38 +171,136 @@ body {
     }
 
 
-    $colores: #333300, green, red; /*LISTA*/
-
-    $negroParrafo: nth($colores, 1);
-
-    p {
-        color: $negroParrafo;
-    }
-
-    
-    $encabezados: (   /*EACH Y MAPA*/
-        h1: 2.5em,
-        h2: 1.5em,
-        h3: 1.2em,
-    );
-
-    @each $encabezado, $size in $encabezados {
-        #{$encabezado} {
-            font-size: $size;
-        }
-        
-    }
-
     @media screen and (max-width:576px) {
+
         .contenedor-inicio {
             display: block;
-           
-      
-    
+        
+     
+            .inicio__titulo {
+                text-align: center;
+                font-size: 1.8rem;
+            }
+
+            .inicio__introduccion {
+                font-size: 0.8rem;
+                text-align: center;
+            }
+
         }
-    
+
+        .contenedor-bosque {
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+
+            .inicio__frase {
+                width: 100%;
+                margin: 1em;
+
+                p {
+                    font-size: 1.2rem;
+                    text-align: center;
+                    }
+
+                .joaquin-araujo {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding: 0.3em;
+                }
+            }
+
+            .amanecer-bosque {
+                text-align: center;
+                
+                img {
+                    width: 100%;
+                    text-align: center;
+                    margin-bottom: 2em;
+                    
+                }
+                
+            }     
+        }
+
+        .frase-jane {
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+
+            .frase-jane__estilo {
+                font-size: 1.2rem;
+                text-align: center;
+            }
+
+            .jane-goodall {
+                font-size: 1rem;
+                text-align: center;
+                padding: 0.3em;
+            }
+        }
+
+        .contenedor-playa {
+            display: block;
+
+            .amanecer-playero {
+                text-align: center;
+                margin: auto;
+
+                img {
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 2em;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+            .frase-abbey {
+                text-align: center;
+                margin: 1em auto;
+
+                p {
+                    font-size: 1.2rem;
+                    text-align: center;
+                }
+
+                strong {
+                    font-size: 1rem;
+                    text-align: center;
+                    padding: 0.3em;
+                 
+                }
+            }
+        }
 
     }
+
+    @media screen and (max-width:768px) {
+
+        .contenedor-inicio {
+            display: block;
+        
+     
+            .inicio__titulo {
+                text-align: center;
+                font-size: 2rem;
+            }
+
+            .inicio__introduccion {
+                font-size: 1rem;
+                text-align: center;
+            }
+
+        }
+
+
+    }
+        
+        
+
+        
 
 
 
