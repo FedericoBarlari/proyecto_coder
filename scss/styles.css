@@ -172,7 +172,7 @@ footer .derechos {
 .chaco-container__texto a {
   text-decoration: none;
   color: whitesmoke;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   margin: 1em;
 }
 
@@ -230,6 +230,7 @@ footer .derechos {
 
 .asesorias__texto {
   width: 25%;
+  font-size: 1.5rem;
 }
 
 .icono-manito {
@@ -254,6 +255,164 @@ footer .derechos {
   margin: 2em auto;
 }
 
+/*MEDIA QUERIES*/
+@media screen and (max-width: 576px) {
+  .chaco-container {
+    display: block;
+  }
+  .chaco-container .chaco-container__texto {
+    text-align: center;
+    width: 100%;
+  }
+  .chaco-container .chaco-container__texto .chaco__titulo {
+    font-size: 1.8rem;
+  }
+  .chaco-container .chaco-container__texto .chaco__texto--estilo {
+    font-size: 1rem;
+  }
+  .chaco-container .chaco-container__texto a {
+    font-size: 1rem;
+  }
+  .chaco-container__plan {
+    margin: 0 auto;
+    width: 70%;
+  }
+  .chaco-container__plan .chaco-flyer img {
+    width: 100%;
+  }
+  #carouselExampleFade {
+    width: 80%;
+  }
+  .container-asesorias {
+    display: block;
+  }
+  .container-asesorias .asesorias__titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 0.8em;
+  }
+  .container-asesorias .asesorias__texto {
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 0.8em;
+  }
+  .container-asesorias .asesorias__texto .icono-manito {
+    font-size: 2rem;
+  }
+  .logos-trabajos {
+    display: block;
+    text-align: center;
+  }
+  .logos-trabajos img {
+    width: 60%;
+    margin: 1em auto;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .chaco-container {
+    display: block;
+  }
+  .chaco-container .chaco-container__texto {
+    text-align: center;
+    width: 100%;
+  }
+  .chaco-container .chaco-container__texto .chaco__titulo {
+    font-size: 2rem;
+  }
+  .chaco-container .chaco-container__texto .chaco__texto--estilo {
+    font-size: 1.2rem;
+  }
+  .chaco-container .chaco-container__texto a {
+    font-size: 1.2rem;
+  }
+  .chaco-container__plan {
+    margin: 0 auto;
+  }
+  .chaco-container__plan .chaco-flyer img {
+    width: 100%;
+  }
+  #carouselExampleFade {
+    width: 80%;
+  }
+  .container-asesorias {
+    display: block;
+  }
+  .container-asesorias .asesorias__titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1em;
+  }
+  .container-asesorias .asesorias__texto {
+    font-size: 1.4rem;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .container-asesorias .asesorias__texto .icono-manito {
+    font-size: 2.5rem;
+  }
+  .logos-trabajos {
+    display: block;
+    text-align: center;
+  }
+  .logos-trabajos img {
+    width: 60%;
+    margin: 1.5em auto;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .chaco__texto--estilo {
+    font-size: 1.3rem;
+  }
+  a {
+    font-size: 1.3rem;
+  }
+  .chaco-container__plan {
+    margin: 0 auto;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .chaco-container__plan .chaco-flyer img {
+    width: 100%;
+  }
+  #carouselExampleFade {
+    width: 70%;
+  }
+  .container-asesorias {
+    display: block;
+  }
+  .container-asesorias .asesorias__titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 2.2rem;
+    margin-bottom: 1.2em;
+  }
+  .container-asesorias .asesorias__texto {
+    font-size: 1.5rem;
+    width: 100%;
+    margin-bottom: 1.2em;
+  }
+  .container-asesorias .asesorias__texto .icono-manito {
+    font-size: 2.7rem;
+  }
+  .logos-trabajos {
+    display: block;
+    text-align: center;
+  }
+  .logos-trabajos img {
+    width: 40%;
+    margin: 1em auto;
+    text-align: center;
+    padding: 0.5em;
+  }
+}
+
 /*SOBRE MÍ*/
 #presentacion .presentacion__caja {
   border: 2px solid #b6917f;
@@ -269,7 +428,7 @@ footer .derechos {
 
 #presentacion .presentacion__parrafo {
   margin: 0.5em 3em;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   line-height: 1.37em;
   letter-spacing: 3px;
   padding-left: 4em;
@@ -280,7 +439,7 @@ footer .derechos {
   text-decoration: none;
   color: whitesmoke;
   margin: 0.5em 3em;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   padding: auto 4em;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -299,7 +458,7 @@ footer .derechos {
   margin: 3em;
   border-radius: 2px solid #b6917f;
   line-height: 1.37em;
-  font-size: 1.25em;
+  font-size: 1.25rem;
   letter-spacing: 3px;
   text-align: justify;
 }
@@ -341,7 +500,7 @@ footer .derechos {
   color: #775b48;
 }
 
-p {
+h3 {
   font-size: 1.5em;
 }
 
@@ -353,6 +512,125 @@ p {
 .check:before {
   content: '✓';
   color: #46413b;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 576px) {
+  #presentacion .presentacion__titulo {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  #presentacion .presentacion__parrafo {
+    font-size: 0.9rem;
+    width: 100%;
+    padding-left: 2em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #presentacion .link-trabajos {
+    font-size: 0.9rem;
+  }
+  .bosque-niebla img {
+    -o-object-position: center;
+       object-position: center;
+  }
+  .contexto__texto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contexto__texto .contexto__texto__titulo--estilo {
+    margin-top: 1em;
+    font-size: 1.8rem;
+  }
+  .contexto__texto .contexto__texto__parrafo--estilo {
+    text-align: center;
+    margin: 1.5em;
+    font-size: 0.9rem;
+  }
+  .tres-check {
+    display: block;
+  }
+  .tres-check .cajita-check {
+    width: 100%;
+  }
+  .tres-check .cajita-check .icono-persona {
+    font-size: 1.5rem;
+  }
+  .tres-check .cajita-check .check {
+    font-size: 1.5rem;
+  }
+  .tres-check .cajita-check h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  #presentacion .presentacion__titulo {
+    font-size: 2rem;
+  }
+  #presentacion .presentacion__parrafo {
+    font-size: 1rem;
+    padding-left: 2.5em;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  #presentacion .link-trabajos {
+    font-size: 1rem;
+  }
+  .bosque-niebla img {
+    -o-object-position: center;
+       object-position: center;
+  }
+  .contexto__texto {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .contexto__texto .contexto__texto__titulo--estilo {
+    font-size: 2rem;
+    margin: 1em auto;
+  }
+  .contexto__texto .contexto__texto__parrafo--estilo {
+    text-align: center;
+    margin: 1.7em;
+    font-size: 1rem;
+  }
+  .tres-check {
+    display: block;
+  }
+  .tres-check .cajita-check {
+    width: 100%;
+  }
+  .tres-check .cajita-check .icono-persona {
+    font-size: 1.5rem;
+  }
+  .tres-check .cajita-check .check {
+    font-size: 1.5rem;
+  }
+  .tres-check .cajita-check h3 {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .presentacion__titulo {
+    font-size: 2.2rem;
+  }
+  .presentacion__parrafo {
+    font-size: 1.25rem;
+  }
+  .link-trabajos {
+    font-size: 1.2rem;
+  }
 }
 
 /*CONTACTO*/
@@ -601,6 +879,7 @@ h1 {
   font-size: 1.5rem;
 }
 
+/*MEDIA QUERIES*/
 @media screen and (max-width: 576px) {
   .contenedor-inicio {
     display: block;
@@ -670,6 +949,8 @@ h1 {
   }
   .contenedor-playa {
     display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
   }
   .contenedor-playa .amanecer-playero {
     text-align: center;
@@ -685,6 +966,7 @@ h1 {
   .contenedor-playa .frase-abbey {
     text-align: center;
     margin: 1em auto;
+    width: auto;
   }
   .contenedor-playa .frase-abbey p {
     font-size: 1.2rem;
@@ -708,6 +990,181 @@ h1 {
   .contenedor-inicio .inicio__introduccion {
     font-size: 1rem;
     text-align: center;
+  }
+  .contenedor-bosque {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor-bosque .inicio__frase {
+    width: 100%;
+    margin: 1em;
+  }
+  .contenedor-bosque .inicio__frase p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .contenedor-bosque .inicio__frase .joaquin-araujo {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.5em;
+  }
+  .contenedor-bosque .amanecer-bosque {
+    text-align: center;
+  }
+  .contenedor-bosque .amanecer-bosque img {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+  .frase-jane {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  .frase-jane .frase-jane__estilo {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .frase-jane .jane-goodall {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.5em;
+  }
+  .contenedor-playa {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .contenedor-playa .amanecer-playero {
+    text-align: center;
+    margin: auto;
+  }
+  .contenedor-playa .amanecer-playero img {
+    width: 100%;
+    text-align: center;
+    margin-top: 2.2em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .contenedor-playa .frase-abbey {
+    text-align: center;
+    margin: 1.2em auto;
+    width: auto;
+  }
+  .contenedor-playa .frase-abbey p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .contenedor-playa .frase-abbey strong {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.5em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .contenedor-inicio {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contenedor-inicio .inicio__titulo {
+    font-size: 2.4rem;
+  }
+  .contenedor-inicio .inicio__introduccion {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .contenedor-bosque .inicio__frase {
+    margin-left: 2em;
+  }
+  .contenedor-bosque .inicio__frase p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .contenedor-bosque .inicio__frase .joaquin-araujo {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.7em;
+  }
+  .contenedor-bosque .amanecer-bosque {
+    text-align: center;
+  }
+  .contenedor-bosque .amanecer-bosque img {
+    width: 100%;
+    text-align: center;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .frase-jane {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: auto;
+  }
+  .frase-jane .frase-jane__estilo {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .frase-jane .jane-goodall {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.7em;
+  }
+  .contenedor-playa {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contenedor-playa .amanecer-playero {
+    text-align: center;
+    margin: auto;
+  }
+  .contenedor-playa .amanecer-playero img {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+  }
+  .contenedor-playa .frase-abbey {
+    text-align: center;
+    margin: auto 2em;
+  }
+  .contenedor-playa .frase-abbey p {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .contenedor-playa .frase-abbey strong {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 0.7em;
   }
 }
 /*# sourceMappingURL=styles.css.map */
