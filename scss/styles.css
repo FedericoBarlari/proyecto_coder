@@ -90,44 +90,69 @@ footer .redesSociales {
           flex-flow: row-reverse nowrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin: 15px;
-  padding: 10px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  padding: 0;
 }
 
-footer .redesSociales__icono {
+footer .redesSociales .redesSociales__icono {
   /*BEM*/
   color: #342c20;
   font-size: 2rem;
-  -webkit-transition: font-size 1s;
-  transition: font-size 1s;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
 }
 
-footer .redesSociales__icono:hover {
-  font-size: 40px;
+footer .redesSociales .redesSociales__icono:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer .boton-menu {
+  background-color: #afb4b4;
+  margin-bottom: 0.5em;
 }
 
 footer .derechos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
   letter-spacing: 3px;
 }
 
 @media screen and (max-width: 576px) {
-  .derechos {
+  footer .derechos {
     display: block;
     text-align: center;
+    font-size: 0.7rem;
+  }
+  footer .redesSociales__icono {
+    font-size: 1rem;
+  }
+  footer .boton-menu {
+    font-size: 80%;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  footer .derechos {
     font-size: 0.8rem;
   }
-  .redesSociales__icono {
+  footer .redesSociales__icono {
+    font-size: 1.4rem;
+  }
+  footer .boton-menu {
+    font-size: 90%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  footer .derechos {
     font-size: 1rem;
+  }
+  footer .redesSociales__icono {
+    font-size: 1.8rem;
+  }
+  footer .boton-menu {
+    font-size: 100%;
   }
 }
 
