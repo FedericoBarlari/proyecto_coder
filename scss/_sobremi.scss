@@ -92,7 +92,8 @@ $margen-texto: 0.5em 3em;
     transition: 1s ease-in;
 }
 
-.icono-persona:hover { /*efecto agregado a las personitas*/
+.icono-persona:hover {
+    /*efecto agregado a las personitas*/
     cursor: pointer;
     transform: rotate(360deg);
 }

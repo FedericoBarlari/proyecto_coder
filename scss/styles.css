@@ -63,6 +63,7 @@
   grid-row: span 3;
 }
 
+/*MEDIA QUERIES*/
 @media screen and (max-width: 576px) {
   .galeria {
     -ms-grid-columns: (1fr)[1];
@@ -73,6 +74,7 @@
   }
 }
 
+/*A partir del media query anterior (mobile first), la galería ya es responsive en los dispositivos más grandes*/
 /*footer*/
 footer {
   border-top: 2px solid #bda89c;

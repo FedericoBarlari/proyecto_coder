@@ -1,7 +1,7 @@
-/*footer*/ 
+/*footer*/
 
 footer {
-    
+
     border-top: 2px solid #bda89c;
     margin: 0;
     background-color: white;
@@ -16,14 +16,16 @@ footer {
         padding: 0;
 
 
-        .redesSociales__icono {  /*BEM*/
+        .redesSociales__icono {
+            /*BEM*/
             color: #342c20;
             font-size: 2rem;
-            transition: 1s linear  /*efecto de zoom a las redes sociales cuando paso el cursor sobre ellas*/
+            transition: 1s linear
+                /*efecto de zoom a las redes sociales cuando paso el cursor sobre ellas*/
         }
 
         .redesSociales__icono:hover {
-             transform: scale(1.2);
+            transform: scale(1.2);
         }
     }
 
@@ -36,7 +38,7 @@ footer {
     .derechos {
         text-align: center;
         letter-spacing: $espaciado-letras;
-     }
+    }
 }
 
 
@@ -52,11 +54,11 @@ footer {
         .redesSociales__icono {
             font-size: 1rem;
         }
-            
-            .boton-menu {
-                font-size: 80%;
-            }
-        
+
+        .boton-menu {
+            font-size: 80%;
+        }
+
 
     }
 }
@@ -71,11 +73,11 @@ footer {
         .redesSociales__icono {
             font-size: 1.4rem;
         }
-            
-            .boton-menu {
-                font-size: 90%;
-            }
-        
+
+        .boton-menu {
+            font-size: 90%;
+        }
+
     }
 
 }
@@ -91,11 +93,11 @@ footer {
         .redesSociales__icono {
             font-size: 1.8rem;
         }
-            
-            .boton-menu {
-                font-size: 100%;
-            }
-        
+
+        .boton-menu {
+            font-size: 100%;
+        }
+
     }
 
 }
